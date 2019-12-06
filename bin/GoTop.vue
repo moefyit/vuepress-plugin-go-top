@@ -25,10 +25,8 @@
     },
     methods: {
       handleScroll() {
-        if (!this.isMobile()) {
-          this.visible = window.pageYOffset > this.visibilityHeight
-          this.catStyle = this.visible ? "show-cat" : "hide-cat"
-        }
+        this.visible = window.pageYOffset > this.visibilityHeight
+        this.catStyle = this.visible ? "show-cat" : "hide-cat"
       },
       goTop() {
         if (this.isMoving) return
@@ -50,9 +48,6 @@
       easeInOutQuad (t, b, c, d) {
         if ((t /= d / 2) < 1) return c / 2 * t * t + b
         return -c / 2 * (--t * (t - 2) - 1) + b
-      },
-      isMobile() {
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
       }
     },
 
@@ -131,5 +126,13 @@
     background: url(assets/go_top.png);
     opacity: 1;
     transition: all .5s ease-in-out;
+  }
+  @media screen and (max-width: 1450px) {
+    .show-cat {
+      display: none;
+    }
+    .hide-cat {
+      display: none;
+    }
   }
 </style>

@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-go-top",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Click such a lovely cat to back to top!",
   "main": "index.js",
   "repository": {
@@ -15,9 +15,7 @@
   ],
   "files": [
     "index.js",
-    "assets/go_top.png",
-    "GoTop.vue",
-	  "enhanceAppFile.js",
+    "bin/",
     "package.json",
     "README.md"
 	],

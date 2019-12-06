@@ -3,6 +3,6 @@ const {
 } = require('path')
 
 module.exports = () => ({
-  enhanceAppFiles: resolve(__dirname, "enhanceAppFile.js"),
+  enhanceAppFiles: resolve(__dirname, "./bin/enhanceAppFile.js"),
   globalUIComponents: "GoTop"
 });
