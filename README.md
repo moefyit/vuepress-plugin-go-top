@@ -22,12 +22,22 @@ npm i vuepress-plugin-go-top -D
 ## Usage
 
 ``` javascript
+// .vuepress/config.js
 module.exports = {
   plugins: ['go-top']
 }
 ```
 
+## Responsive breakpoints
+
+``` stylus
+// .vuepress/styles/palette.styl
+
+$MQWide ?= 1440px
+$MQMobile ?= 768px
+```
+
 ## Thanks
 
 - [GoTop](https://github.com/MisakaTAT/GoTop)
-- [@vuepress-reco/vuepress-plugin-back-to-top](https://github.com/vuepress-reco/vuepress-plugin-back-to-top)
+- [@vuepress/plugin-back-to-top](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/plugin-back-to-top/BackToTop.vue)
