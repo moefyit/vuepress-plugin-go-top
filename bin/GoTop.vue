@@ -156,9 +156,12 @@
       z-index: 0;
       width: 50px;
       height: 50px;
-      background: url(assets/claw.svg);
-      background-size: contain;
-      opacity: 1;
+      mask: url(assets/claw.svg) no-repeat 100% 100%;
+      -webkit-mask: url(assets/claw.svg) no-repeat 100% 100%;
+      mask-size: cover;
+      -webkit-mask-size: cover;
+      background-color: $accentColor;
+      opacity: 0.5;
       transition: bottom .3s ease-in-out;
     }
     .hide-cat {
@@ -169,9 +172,12 @@
       z-index: 0;
       width: 50px;
       height: 50px;
-      background: url(assets/claw.svg);
-      background-size: contain;
-      opacity: 1;
+      mask: url(assets/claw.svg) no-repeat 100% 100%;
+      -webkit-mask: url(assets/claw.svg) no-repeat 100% 100%;
+      mask-size: cover;
+      -webkit-mask-size: cover;
+      background-color: $accentColor;
+      opacity: 0.1;
       transition: bottom .3s ease-in-out;
     }
   }
