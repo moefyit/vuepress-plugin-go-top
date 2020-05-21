@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/SigureMo/vuepress-plugin-go-top.git"
+    "url": "git+ssh://git@github.com/moefyit/vuepress-plugin-go-top.git"
   },
   "keywords": [
     "vuepress",
@@ -22,9 +22,9 @@
   "author": "SigureMo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SigureMo/vuepress-plugin-go-top/issues"
+    "url": "https://github.com/moefyit/vuepress-plugin-go-top/issues"
   },
-  "homepage": "https://github.com/SigureMo/vuepress-plugin-go-top#readme",
+  "homepage": "https://github.com/moefyit/vuepress-plugin-go-top#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
