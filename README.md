@@ -1,4 +1,6 @@
-# vuepress-plugin-go-top
+# vuepress-plugin-go-top <GitHubLink repo="moefyit/vuepress-plugin-go-top"/>
+
+:feet: Click such a lovely cat to back to top!
 
 <p align="center">
    <a href="https://www.npmjs.com/package/vuepress-plugin-go-top" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-go-top.svg"></a>
