@@ -113,42 +113,41 @@
       transform: translateY(0px);
     }
   }
-  @media screen and (min-width: $MQWide) {
-    .show-cat {
-      cursor: pointer;
-      position: fixed;
-      right: 80px;
-      top: -200px;
-      z-index: 0;
-      width: 70px;
-      height: 900px;
-      background: url(assets/go_top.png);
-      opacity: 1;
-      transition: top .5s ease-in-out;
-      animation-name: offsets;
-      animation-duration: 3s;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      -webkit-animation-name: offsets;
-      -webkit-animation-duration: 3s;
-      -webkit-animation-timing-function: linear;
-      -webkit-animation-iteration-count: infinite;
-    }
-    .hide-cat {
-      cursor: pointer;
-      position: fixed;
-      right: 80px;
-      top: -900px;
-      z-index: 0;
-      width: 70px;
-      height: 900px;
-      background: url(assets/go_top.png);
-      opacity: 1;
-      transition: top .5s ease-in-out;
-    }
+  .show-cat {
+    cursor: pointer;
+    position: fixed;
+    right: 80px;
+    top: -200px;
+    z-index: 0;
+    width: 70px;
+    height: 900px;
+    background: url(assets/go_top.png);
+    opacity: 1;
+    transition: top .5s ease-in-out;
+    animation-name: offsets;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: offsets;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .hide-cat {
+    cursor: pointer;
+    position: fixed;
+    right: 80px;
+    top: -900px;
+    z-index: 0;
+    width: 70px;
+    height: 900px;
+    background: url(assets/go_top.png);
+    opacity: 1;
+    transition: top .5s ease-in-out;
   }
   @media screen and (max-width: $MQWide) {
     .show-cat {
+      all: unset;
       cursor: pointer;
       position: fixed;
       right: 50px;
@@ -165,6 +164,7 @@
       transition: bottom .3s ease-in-out;
     }
     .hide-cat {
+      all: unset;
       cursor: pointer;
       position: fixed;
       right: 50px;
