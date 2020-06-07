@@ -177,7 +177,7 @@
       mask-size: cover;
       -webkit-mask-size: cover;
       background-color: $accentColor;
-      opacity: 0.1;
+      opacity: 0.5;
       transition: bottom .3s ease-in-out;
     }
   }
