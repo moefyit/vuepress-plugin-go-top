@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-go-top",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Click such a lovely cat to back to top!",
   "main": "index.js",
   "repository": {
@@ -18,7 +18,7 @@
     "bin/",
     "package.json",
     "README.md"
-	],
+  ],
   "author": "SigureMo",
   "license": "MIT",
   "bugs": {
