@@ -10,12 +10,12 @@
    <a href="https://github.com/moefyit/vuepress-plugin-go-top/blob/master/LICENSE" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/moefyit/vuepress-plugin-go-top"></a>
 </p>
 
-- Document: [moefy-vuepress](https://moefyit.github.io/moefy-vuepress/)
-- LiveDemo: [notev](https://www.sigure.xyz/)
+-  Document: [moefy-vuepress](https://moefyit.github.io/moefy-vuepress/)
+-  LiveDemo: [notev](https://www.sigure.xyz/)
 
 ## Install
 
-``` bash
+```bash
 yarn add vuepress-plugin-go-top -D
 # or use npm
 npm i vuepress-plugin-go-top -D
@@ -23,16 +23,16 @@ npm i vuepress-plugin-go-top -D
 
 ## Usage
 
-``` javascript
+```javascript
 // .vuepress/config.js
 module.exports = {
-  plugins: ['go-top']
+   plugins: ['go-top'],
 }
 ```
 
 ## Responsive breakpoints
 
-``` stylus
+```stylus
 // .vuepress/styles/palette.styl
 
 $MQWide ?= 1440px
@@ -41,5 +41,5 @@ $MQMobile ?= 768px
 
 ## Thanks
 
-- [GoTop](https://github.com/MisakaTAT/GoTop)
-- [@vuepress/plugin-back-to-top](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/plugin-back-to-top/BackToTop.vue)
+-  [GoTop](https://github.com/MisakaTAT/GoTop)
+-  [@vuepress/plugin-back-to-top](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/plugin-back-to-top/BackToTop.vue)

@@ -1,7 +1,5 @@
-import GoTop from "./GoTop.vue";
+import GoTop from './GoTop.vue'
 
-export default ({
-  Vue
-}) => {
-  Vue.component("GoTop", GoTop);
-};
+export default ({ Vue }) => {
+  Vue.component('GoTop', GoTop)
+}
